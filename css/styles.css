@@ -1,0 +1,333 @@
+/* -----------------------------
+			General
+-------------------------------- */
+html {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/pattern.png) no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+    font-weight: 600;
+    margin: 15px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+    /* margin: 15px; */
+}
+
+
+/* -----------------------------
+			Navigation
+-------------------------------- */
+.navbar {
+    background: #eff4f8bb;
+    border: 0;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+
+.navbar-brand {
+    max-height: 50px;
+    padding: 0 15px 15px;
+}
+
+.navbar-brand img {
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav li a {
+    /* color: #eff4f8; */
+    color: #2b3c4a;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:active,
+.navbar-default .navbar-nav li a:focus {
+    color: #2b3c4aad;
+    border-bottom: 1px solid #2b3c4aad;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+    border-color: #2b3c4a;
+}
+
+/* -----------------------------
+			Home
+-------------------------------- */
+#home {
+    background: url(../img/cafea.jpg) no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.landing-text {
+    display: table-cell;
+    background: #2b3c4aad;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.landing-text a {
+    border-color: #eff4f8;
+    color: #fff;
+}
+
+.landing-text a:hover {
+    color: #eff4f8bb;
+}
+
+/* -----------------------------
+			About
+-------------------------------- */
+.padding {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.padding img {
+    width: 100%;
+    border: 1px solid #eff4f8bb;
+    border-radius: 50%;
+    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
+}
+
+/* -----------------------------
+			Menu
+-------------------------------- */
+.food {
+    background: #f8eff4ee;
+    bottom: 200px;
+    padding: 80px 0;
+}
+
+.food img {
+    width: 100%;
+}
+
+.page {
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    -webkit-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
+    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
+}
+
+table {
+    text-align: left;
+}
+
+/* -----------------------------
+			Gallery
+-------------------------------- */
+#gallery {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.card {
+    /* background-color: #eff4f8bb; */
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carousel-caption {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #ffffffd9;
+    color: #2b3c4a;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.card-footer {
+    padding: 5px;
+}
+
+.slides .col-sm-3 {
+    background: #f4f8ef;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.slides img {
+    width: 100%;
+    border: 1px solid #eff4f8bb;
+}
+
+/* -----------------------------
+		Quote
+-------------------------------- */
+.fixed {
+    background: url(../img/palms.jpg) no-repeat center fixed;
+    background-size: cover;
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+.poster {
+    padding: 80px 0;
+}
+
+.poster img {
+    width: 50%;
+    border: 1px solid #eff4f8bb;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+
+/* -----------------------------
+            Contact
+-------------------------------- */
+.map {
+    background: #f4f8ef;
+    padding: 80px 0;
+}
+
+.map iframe {
+    width: 100%;
+    border: 1px solid #eff4f8bb;
+    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+}
+
+.phone a {
+    color: #2b3c4a;
+}
+
+.phone a:hover {
+    text-decoration: none;
+    color: #2b3c4aad;
+}
+
+
+/* -----------------------------
+            Hours
+-------------------------------- */
+.schedule {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.heading {
+    font-family: 'Merienda One', cursive;
+}
+
+
+/* -----------------------------
+			Footer
+-------------------------------- */
+footer {
+    background: #eff4f8;
+    width: 100%;
+    padding-bottom: 10px;
+    -webkit-box-shadow: -1px 4px 36px -12px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -1px 4px 36px -12px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 4px 36px -12px rgba(0, 0, 0, 0.35);
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    color: #2b3c4a;
+}
+
+a.fa:hover,
+a.fa:focused,
+a.fa:visited {
+    color: #2b3c4aad;
+    text-decoration: none;
+}
+
+.icon {
+    width: 150px;
+    padding: 20px;
+}
+
+hr {
+    margin: 10px;
+}
+
+a.phone {
+    color: #2b3c4a;
+    font-size: 1.2em;
+}
+
+/* -----------------------------
+			Media
+-------------------------------- */
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin: 5px;
+        padding: 0;
+    }
+
+    .landing-text h1 {
+        font-size: 300%;
+    }
+
+    .landing-img img {
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .icon {
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
+
+@media (min-width: 768px) {
+    .phone {
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .padding img {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+}
