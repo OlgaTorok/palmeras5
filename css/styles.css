@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merienda+One&display=swap');
+
 /* -----------------------------
-			General
+            General
 -------------------------------- */
 html {
     margin:0;
@@ -10,8 +12,7 @@ body {
     background: url(../img/pattern.png) no-repeat center fixed;
     background-size: cover;
     position: relative;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-family: 'Lato', sans-serif;
     height: 100vh;
     width: 100vw;
 }
@@ -32,13 +33,13 @@ h6 {
 
 
 /* -----------------------------
-			Navigation
+            Navigation
 -------------------------------- */
 .navbar {
-    background: #eff4f8bb;
+    background: rgba(239, 244, 248, 0.9);
     border: 0;
     padding: 1% 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .navbar-brand {
@@ -47,29 +48,30 @@ h6 {
 }
 
 .navbar-brand img {
-    height: 70px;
+    height: 60px;
     padding-bottom: 10px;
-}
-
-.navbar-default .navbar-nav li a {
-    /* color: #eff4f8; */
-    color: #2b3c4a;
-}
-
-.navbar-default .navbar-nav li a:hover,
-.navbar-default .navbar-nav li a:active,
-.navbar-default .navbar-nav li a:focus {
-    color: #2b3c4aad;
-    border-bottom: 1px solid #2b3c4aad;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
-    border-color: #2b3c4a;
+    border: 1px solid #2b3c4a;
 }
 
+.navbar-default .navbar-nav .nav-link {
+    color: #2b3c4a;
+}
+
+.navbar-default .navbar-nav >.active > a, 
+.navbar-default .navbar-nav >.active > a:focus, 
+.navbar-default .navbar-nav >.active > a:hover {
+    color: #2b3c4a;
+    background: transparent;
+    border-bottom: 1px solid #2b3c4a;
+}
+
+
 /* -----------------------------
-			Home
+            Home
 -------------------------------- */
 #home {
     background: url(../img/cafea.jpg) no-repeat center fixed;
@@ -91,7 +93,7 @@ h6 {
 }
 
 .landing-text h1 {
-    font-size: 500%;
+    font-size: 5em;
     font-weight: 700;
 }
 
@@ -105,7 +107,7 @@ h6 {
 }
 
 /* -----------------------------
-			About
+            About
 -------------------------------- */
 .padding {
     background: #fff;
@@ -120,12 +122,13 @@ h6 {
 }
 
 /* -----------------------------
-			Menu
+            Menu
 -------------------------------- */
 .food {
     background: #f8eff4ee;
     bottom: 200px;
     padding: 80px 0;
+    font-size: 1.1em; 
 }
 
 .food img {
@@ -147,7 +150,7 @@ table {
 }
 
 /* -----------------------------
-			Gallery
+            Gallery
 -------------------------------- */
 #gallery {
     background: #fff;
@@ -155,8 +158,8 @@ table {
 }
 
 .card {
-    /* background-color: #eff4f8bb; */
-    padding: 4px;
+    margin: 10px;
+    padding: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -165,10 +168,11 @@ table {
     left: 0;
     width: 100%;
     height: 10px;
-    background: #ffffffd9;
+    background: #fff;
     color: #2b3c4a;
     padding-bottom: 30px;
     padding-top: 10px;
+    font-size: .5em;
 }
 
 .card-footer {
@@ -190,7 +194,7 @@ table {
 }
 
 /* -----------------------------
-		Quote
+        Quote
 -------------------------------- */
 .fixed {
     background: url(../img/palms.jpg) no-repeat center fixed;
@@ -250,7 +254,7 @@ table {
 
 
 /* -----------------------------
-			Footer
+            Footer
 -------------------------------- */
 footer {
     background: #eff4f8;
@@ -289,7 +293,7 @@ a.phone {
 }
 
 /* -----------------------------
-			Media
+            Media
 -------------------------------- */
 @media (max-width: 768px) {
     .navbar-brand {
@@ -321,10 +325,14 @@ a.phone {
     .phone {
         padding: 30px;
     }
+
+    .carousel-caption {
+        font-size: 1.5em;
+    }
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .padding img {
         width: 60%;
         margin-bottom: 20px;

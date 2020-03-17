@@ -7,17 +7,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link href="https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target="#navbarResponsive">
         <!-- -------------------------- NAVBAR -------------------------- -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#navbar-collapse-main">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarResponsive">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -25,14 +23,13 @@
                     </button>
                     <a href="#home" class="navbar-brand"><img src="img/logo-main.png" alt="Logo" /></a>
                 </div>
-                <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home" class="fa fa-home"></a></li>
-                        <li><a href="#about" class="">NOSOTROS</a></li>
-                        <li><a href="#menu" class="">MENÚ</a></li>
-                        <li><a href="#gallery" class="">GALERÍA</a></li>
-                        <!-- <li><a href="#hour" class="">HORARIO</a></li> -->
-                        <li><a href="#contact" class="">CONTACTO</a></li>
+                        <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">NOSOTROS</a></li>
+                        <li class="nav-item"><a href="#menu" class="nav-link">MENÚ</a></li>
+                        <li class="nav-item"><a href="#gallery" class="nav-link">GALERÍA</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">CONTACTO</a></li>
                     </ul>
                 </div>
             </div>
@@ -409,7 +406,7 @@
 
         <!-- -------------------------- Photo Galley -------------------------- -->
         <section id="gallery">
-            <div class="container">
+            <div class="container-fluid">
                 <h1 class="text-center">Galería</h1><br>
                 <div class="row">
 
