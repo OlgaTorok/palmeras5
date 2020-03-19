@@ -118,7 +118,9 @@ h6 {
     width: 100%;
     border: 1px solid #eff4f8bb;
     border-radius: 50%;
-    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
+    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow:0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
 }
 
 /* -----------------------------
@@ -140,9 +142,11 @@ h6 {
     background-color: #fff;
     border-radius: 5px;
     padding: 30px;
-    -webkit-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
-    -moz-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
-    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.48);
+    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow:0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    
+
 }
 
 table {
@@ -160,7 +164,9 @@ table {
 .card {
     margin: 10px;
     padding: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow:0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
 }
 
 .carousel-caption {
@@ -172,7 +178,8 @@ table {
     color: #2b3c4a;
     padding-bottom: 30px;
     padding-top: 10px;
-    font-size: .5em;
+    font-size: 1.3em !important;
+    text-shadow: none;
 }
 
 .card-footer {
@@ -228,6 +235,8 @@ table {
     width: 100%;
     border: 1px solid #eff4f8bb;
     box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow:0px 14px 43px -1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 0px 14px 43px -1px rgba(0, 0, 0, 0.28);
 }
 
 .phone a {
@@ -252,6 +261,10 @@ table {
     font-family: 'Merienda One', cursive;
 }
 
+.schedule p {
+    font-size: 1.2em;
+}
+
 
 /* -----------------------------
             Footer
@@ -259,10 +272,15 @@ table {
 footer {
     background: #eff4f8;
     width: 100%;
-    padding-bottom: 10px;
+    padding: 10px;
     -webkit-box-shadow: -1px 4px 36px -12px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: -1px 4px 36px -12px rgba(0, 0, 0, 0.2);
     box-shadow: -1px 4px 36px -12px rgba(0, 0, 0, 0.35);
+}
+
+.title {
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .fa {
